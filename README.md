@@ -5,7 +5,7 @@
 ## **Overview**
 
 Sweet Shop is a React-based frontend application for managing and purchasing sweets. It communicates with a Django REST API backend to perform authentication, view, add, delete, search, and purchase sweets. The frontend features neumorphic design, animated components, and responsive layout.
-Backend at [https://github.com/SrinivasSKulal/sweet_api_django]https://github.com/SrinivasSKulal/sweet_api_django
+Backend at [https://github.com/SrinivasSKulal/sweet_api_django]
 ---
 
 ## **Features**
