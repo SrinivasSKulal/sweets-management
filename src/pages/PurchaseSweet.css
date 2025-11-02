@@ -1,0 +1,72 @@
+.purchase-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+.sweet-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  max-width: 800px;
+}
+
+.sweet-item {
+  padding: 20px;
+  border-radius: 20px;
+  background: #e0e5ec;
+  box-shadow: 5px 5px 10px #a3b1c6, -5px -5px 10px #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sweet-item .input {
+  padding: 10px 12px;
+  border-radius: 12px;
+  border: none;
+  background: #e0e5ec;
+  box-shadow: inset 3px 3px 6px #a3b1c6, inset -3px -3px 6px #ffffff;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+.sweet-item .input:focus {
+  outline: none;
+  box-shadow: inset 2px 2px 5px #a3b1c6, inset -2px -2px 5px #ffffff;
+}
+
+.sweet-item button {
+  padding: 10px 15px;
+  border-radius: 12px;
+  border: none;
+  background: #e0e5ec;
+  font-size: 14px;
+  cursor: pointer;
+  box-shadow: 5px 5px 10px #a3b1c6, -5px -5px 10px #ffffff;
+  transition: all 0.2s ease-in-out;
+}
+
+.sweet-item button:hover {
+  box-shadow: inset 2px 2px 5px #a3b1c6, inset -2px -2px 5px #ffffff;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+}
+.quantity-input {
+        width: 100%;
+    padding: 12px 15px;
+    border:none;
+    border-radius: 12px;
+    background: #e0e5ec;
+    color: #000;
+    font-size: 14px;
+    box-shadow: inset 3px 3px 6px #a3b1c6 , inset -3px -3px 6px #ffffff;
+    transition: all 0.3s ease;
+}

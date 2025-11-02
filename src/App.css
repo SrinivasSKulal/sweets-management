@@ -11,6 +11,9 @@
   margin: 0;
   padding: 0;
   text-align: center;
+  color:#000;
+    background: url('src/assets/background.jpg') no-repeat center center fixed;
+  background-size: cover;
 }
 .logo {
   height: 6em;
